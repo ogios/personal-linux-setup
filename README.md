@@ -22,3 +22,7 @@ https://github.com/jesseduffield/lazygit
 ```bash
 ln /home/ogios/app/lazygit /usr/bin/lazygit
 ```
+
+## lf
+https://github.com/gokcehan/lf/wiki/Packages  
+[配置](https://github.com/ogios/lf-personal-settings)
