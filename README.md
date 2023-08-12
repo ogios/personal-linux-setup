@@ -1,5 +1,42 @@
 # personal-linux-setup
 
+## 基础
+
+### 时间
+```bash
+timedatectl set-local-rtc 1 --adjust-sy
+```
+
+### 字体
+```bash
+sudo pacman -S ttf-dejavu wqy-microhei wqy-microhei-lite noto-fonts noto-fonts-cjk noto-fonts-emoji noto-fonts-extra adobe-source-han-serif-cn-fonts adobe-source-han-sans-cn-fonts wqy-zenhei wqy-bitmapfont ttf-arphic-ukai
+
+yay -S ttf-fira-code
+```
+
+### debtap解包
+```bash
+yay -S debtap
+
+sudo debtap -u
+```
+
+### 输入法
+```bash
+sudo pacman -S fcitx5-im 
+sudo pacman -S fcitx5-chinese-addons fcitx5-pinyin-zhwiki 
+```
+
+```bash
+vim /etc/environment
+
+GTK_IM_MODULE=fcitx5
+QT_IM_MODULE=fcitx5
+XMODIFIERS=@im=fcitx5
+SDL_IM_MODULE=fcitx5
+```
+
+
 ## nvm (nodejs)
 ### archlinux:
 ```bash
