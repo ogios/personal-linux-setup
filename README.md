@@ -68,3 +68,16 @@ https://github.com/gokcehan/lf/wiki/Packages
 ```bash
 yay -S fzf
 ```
+
+## 聊天软件
+https://yaocc.cc/archwine/
+```bash
+yay -S com.qq.tim.spark
+yay -S deepin-wine-wechat
+yay -S com.qq.weixin.work.deepin-x11
+```
+
+## 音乐
+```bash
+yay -S netease-cloud-music
+```
