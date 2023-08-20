@@ -90,6 +90,11 @@ https://github.com/jesseduffield/lazygit
 ```bash
 ln /home/ogios/app/lazygit /usr/bin/lazygit
 ```
+host: 
+```bash
+140.82.113.3 github.com
+```
+
 
 ## lf
 https://github.com/gokcehan/lf/wiki/Packages  
