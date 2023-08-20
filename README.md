@@ -94,6 +94,12 @@ ln /home/ogios/app/lazygit /usr/bin/lazygit
 ## lf
 https://github.com/gokcehan/lf/wiki/Packages  
 [配置](https://github.com/ogios/lf-personal-settings)
+```bash
+echo "source ~/.config/lf/lfcd.sh" >> ~/.bashrc
+cho "alias lf=lfcd" >> ~/.bashrc
+```
+
+
 
 ## fzf
 ```bash
