@@ -89,6 +89,10 @@ nvm install node
 
 ## go
 [安装](https://go.dev/doc/install)
+或者：
+```bash
+yay -S go
+```
 
 
 
@@ -104,6 +108,14 @@ host:
 140.82.113.3 github.com
 ```
 
+## ripgrep
+
+```bash
+sudo pacman -S ripgrep
+```
+
+
+
 
 ## lf
 https://github.com/gokcehan/lf/wiki/Packages  
@@ -113,12 +125,17 @@ echo "source ~/.config/lf/lfcd.sh" >> ~/.bashrc
 cho "alias lf=lfcd" >> ~/.bashrc
 ```
 
-
-
 ## fzf
 ```bash
 yay -S fzf
 ```
+
+## pistol-git
+```bash
+go install github.com/doronbehar/pistol/cmd/pistol@latest
+```
+
+
 
 ## 聊天软件
 https://yaocc.cc/archwine/
