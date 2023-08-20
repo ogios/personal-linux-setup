@@ -98,6 +98,76 @@ clock如果不起作用就在shell脚本中加入如下内容:
 export LC_ALL=C
 ```
 
+## zsh
+```
+yay -S zsh
+bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+```
+在plugins文件夹里创建一个自定义文件夹，放进去自定义的zsh脚本就行
+
+.zshrc
+```zsh
+zinit ice wait'' lucid 
+zinit light zsh-users/zsh-autosuggestions
+zinit ice wait'' lucid 
+zinit light wting/autojump
+zinit ice wait'' lucid 
+zinit light zsh-users/zsh-syntax-highlighting
+zinit ice wait'' lucid 
+zinit light StackExchange/blackbox
+zinit ice wait'' lucid 
+zinit light b4b4r07/enhancd
+zinit ice wait'' lucid 
+zinit light fcambus/ansiweather
+zinit ice wait'' lucid 
+zinit light zsh-users/zsh-history-substring-search
+zinit ice wait'' lucid 
+zinit light supercrabtree/k
+# zinit light chriskempson/base16-shell
+zinit ice wait'' lucid 
+zinit light wfxr/forgit
+zinit ice wait'' lucid 
+zinit light zdharma/fast-syntax-highlighting
+zinit ice wait'' lucid 
+zinit light larkery/zsh-histdb
+zinit ice wait'' lucid 
+zinit light MichaelAquilina/zsh-you-should-use
+zinit ice wait'' lucid 
+zinit light iam4x/zsh-iterm-touchbar
+zinit ice wait'' lucid 
+zinit light unixorn/git-extra-commands
+zinit ice wait'' lucid 
+zinit light marlonrichert/zsh-autocomplete
+zinit ice wait'' lucid 
+zinit light mfaerevaag/wd
+zinit ice wait'' lucid 
+zinit light agkozak/zsh-z
+zinit ice wait'' lucid 
+zinit light mafredri/zsh-async
+zinit ice wait'' lucid 
+zinit light Tarrasch/zsh-autoenv
+zinit ice wait'' lucid 
+zinit light zsh-users/zaw
+zinit ice wait'' lucid 
+zinit light djui/alias-tips
+zinit ice wait'' lucid 
+zinit light changyuheng/fz
+zinit ice wait'' lucid 
+zinit light b4b4r07/emoji-cli
+zinit ice wait'' lucid 
+zinit light Tarrasch/zsh-bd
+zinit ice wait'' lucid 
+zinit light zdharma/history-search-multi-word
+
+# Load pure theme
+# zinit ice pick"async.zsh" src"pure.zsh" # with zsh-async library that's bundled with it.
+# zinit light sindresorhus/pure
+# zinit ice defer
+zinit ice wait'' lucid 
+zinit load custom
+
+```
+
 
 
 ## nvm (nodejs)
