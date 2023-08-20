@@ -14,6 +14,9 @@ sudo pacman -S ttf-dejavu wqy-microhei wqy-microhei-lite noto-fonts noto-fonts-c
 yay -S ttf-fira-code
 ```
 
+[nerd-fonts](https://www.nerdfonts.com/font-downloads)
+
+
 ### debtap解包
 ```bash
 yay -S debtap
@@ -34,6 +37,14 @@ GTK_IM_MODULE=fcitx5
 QT_IM_MODULE=fcitx5
 XMODIFIERS=@im=fcitx5
 SDL_IM_MODULE=fcitx5
+```
+
+```bash
+vim ~/.bashrc
+
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx 作者：st-_-st https://www.bilibili.com/read/cv24967541/ 出处：bilibili
 ```
 
 
