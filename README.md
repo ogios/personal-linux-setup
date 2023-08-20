@@ -62,6 +62,15 @@ export XMODIFIERS=@im=fcitx 作者：st-_-st https://www.bilibili.com/read/cv249
 ssh-keygen -t ed25519 -C "email"
 ```
 
+### 修改文件/文件夹所属
+
+防止有的内容变成root导致原本用户无法使用和更改  
+单改文件取消 `-R`  
+```bash
+sudo chown -R <用户名> <文件夹名>
+sudo chgrp -R <用户名> <文件夹名>
+```
+
 
 
 ## nvm (nodejs)
