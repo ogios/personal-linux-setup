@@ -72,6 +72,23 @@ sudo chgrp -R <用户名> <文件夹名>
 ```
 
 
+## clash-gui
+https://github.com/Fndroid/clash_for_windows_pkg/releases
+
+配置service(其实也可以不配，毕竟人家自带自启按钮，或者使用hyprland的话在hyprland的配置文件里设置启动)
+```service
+[Unit]
+Description=Clash Proxy
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/**/cfw
+
+[Install]
+WantedBy=multi-user.target
+```
+
 
 ## nvm (nodejs)
 ### archlinux:
