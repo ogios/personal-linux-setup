@@ -88,6 +88,16 @@ ExecStart=/**/cfw
 [Install]
 WantedBy=multi-user.target
 ```
+可以开启轻量模式，具体要求看这里：
+https://docs.cfw.lbyczf.com/contents/lightweight.html#%E7%89%88%E6%9C%AC%E8%A6%81%E6%B1%82
+
+
+## waybar
+clock如果不起作用就在shell脚本中加入如下内容:
+```bash
+export LC_ALL=C
+```
+
 
 
 ## nvm (nodejs)
@@ -110,10 +120,6 @@ nvm install node
 ```bash
 yay -S go
 ```
-
-
-
-该文件是我在第一次安装完nvchad之后写的，里面包含了一个go插件，不知道是不是插件帮助我安装的还是啥，直接就有了，之前有没有没测试过
 
 ## lazygit
 https://github.com/jesseduffield/lazygit
