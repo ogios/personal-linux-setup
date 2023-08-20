@@ -2,6 +2,16 @@
 
 ## 基础
 
+### 7zip
+```bash
+yay -S 7-zip
+```
+命令：
+```bash
+7zz x <name>.zip -r -o<path>
+7zz a <include>
+```
+
 ### 时间
 ```bash
 timedatectl set-local-rtc 1 --adjust-sy
@@ -47,6 +57,12 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx 作者：st-_-st https://www.bilibili.com/read/cv24967541/ 出处：bilibili
 ```
 
+### ssh-key
+```bash
+ssh-keygen -t ed25519 -C "email"
+```
+
+
 
 ## nvm (nodejs)
 ### archlinux:
@@ -63,6 +79,10 @@ nvm install node
 ```
 
 ## go
+[安装](https://go.dev/doc/install)
+
+
+
 该文件是我在第一次安装完nvchad之后写的，里面包含了一个go插件，不知道是不是插件帮助我安装的还是啥，直接就有了，之前有没有没测试过
 
 ## lazygit
