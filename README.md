@@ -100,7 +100,7 @@ https://docs.cfw.lbyczf.com/contents/lightweight.html#%E7%89%88%E6%9C%AC%E8%A6%8
 sudo pacman -S fuse2
 ```
 desktop启动项:
-```
+```desktop
 [Desktop Entry]
 Type=Application
 Terminal=false
