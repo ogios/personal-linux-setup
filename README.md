@@ -186,6 +186,16 @@ zinit load custom
 
 ```
 
+## Grub启动
+```bash
+sudo pacman -S xorg-xhost
+sudo pacman -S grub-customizer
+```
+
+## 全局配置修改 (Login manager/grub...许多)
+```bash
+yay -S archlinux-tweak-tool-git
+```
 
 
 ## nvm (nodejs)
