@@ -92,6 +92,24 @@ WantedBy=multi-user.target
 https://docs.cfw.lbyczf.com/contents/lightweight.html#%E7%89%88%E6%9C%AC%E8%A6%81%E6%B1%82
 
 
+## 音乐播放器
+> 由于网易云音乐下架linux版，故使用[YesPlaymusic](https://github.com/qier222/YesPlayMusic)代替
+
+依赖(AppImage):
+```bash
+sudo pacman -S fuse2
+```
+desktop启动项:
+```
+[Desktop Entry]
+Type=Application
+Terminal=false
+Categories=music
+Name=R3pMusic
+Exec=/home/ogios/app/R3PLAY-2.0.0-linux.AppImage
+Comment=music player to substitute netease
+```
+
 ## waybar
 clock如果不起作用就在shell脚本中加入如下内容:
 ```bash
