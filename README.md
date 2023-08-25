@@ -1,3 +1,7 @@
+<!--ts-->
+<!--te-->
+
+
 # personal-linux-setup
 
 ## 基础
