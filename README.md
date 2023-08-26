@@ -120,6 +120,16 @@ WantedBy=multi-user.target
 https://docs.cfw.lbyczf.com/contents/lightweight.html#%E7%89%88%E6%9C%AC%E8%A6%81%E6%B1%82
 
 
+## v2raya
+```bash
+# 可能需要换源到官方 aur.archlinux.org
+yay -S v2raya
+```
+会自动注册服务，之需手动开启和设置自启就好  
+完事之后访问本地2017端口，设置过滤为cn大陆白名单  
+之后import地址再启动，如果遇到iptables的问题，先重启（可能是clash导致的，记得关闭它）
+
+
 ## 音乐播放器
 > 由于网易云音乐下架linux版，故使用[YesPlaymusic](https://github.com/qier222/YesPlayMusic)代替
 
