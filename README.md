@@ -138,6 +138,8 @@ Host github.com
     User git
 ```
 
+同时ipv6可能没有被设置，若测试后没有，则在 `/etc/v2raya/config.json` 中复制粘贴一份inbounds中ipv4的监听配置改为ipv6的后重启即可
+
 
 ## 音乐播放器
 > 由于网易云音乐下架linux版，故使用[YesPlaymusic](https://github.com/qier222/YesPlayMusic)代替
