@@ -130,6 +130,14 @@ yay -S v2raya
 完事之后访问本地2017端口，设置过滤为cn大陆白名单  
 之后import地址再启动，如果遇到iptables的问题，先重启（可能是clash导致的，记得关闭它）
 
+这可能会导致ssh连接github出现密钥交换问题，切换为带有ssl的443端口
+```ssh_config
+Host github.com
+    Hostname ssh.github.com
+    Port 443
+    User git
+```
+
 
 ## 音乐播放器
 > 由于网易云音乐下架linux版，故使用[YesPlaymusic](https://github.com/qier222/YesPlayMusic)代替
