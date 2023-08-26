@@ -9,6 +9,7 @@
       * [ssh-key](#ssh-key)
       * [修改文件/文件夹所属](#修改文件文件夹所属)
    * [clash-gui](#clash-gui)
+   * [v2raya](#v2raya)
    * [音乐播放器](#音乐播放器)
    * [waybar](#waybar)
    * [zsh](#zsh)
